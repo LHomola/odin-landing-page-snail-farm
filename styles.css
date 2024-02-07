@@ -35,3 +35,45 @@ nav ul {
 nav li {
     margin-left: 25px;    
 }
+
+.subheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.subheader-hero {    
+    margin-left: 20%;
+}
+
+.subheader-hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;    
+}
+
+.subheader-hero-secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.subheader-image {
+    margin-right: 20%;
+}
+
+.subheader-image img {
+    width: 30vw;
+    height: 25vw;
+}
+
+.subheader-signup button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
