@@ -134,3 +134,44 @@ nav li {
     font-weight: bolder;
 }
 
+.footer-top {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top-container {
+    background-color: rgb(59,130,246);
+    color: white;
+    border-radius: 10px;
+    padding: 60px 200px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top-text {
+    font-size: 24px;
+    line-height: 0.1em;
+    font-weight: bolder;
+}
+
+.footer-top-text p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.footer-top-button button{
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+}
