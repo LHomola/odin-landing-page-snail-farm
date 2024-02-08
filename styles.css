@@ -56,10 +56,12 @@ nav li {
 .subheader-hero-secondary {
     color: #E5E7EB;
     font-size: 18px;
+    padding: 1em 0;
 }
 
 .subheader-image {
     margin-right: 20%;
+    margin-left: 5%;
 }
 
 .subheader-image img {
