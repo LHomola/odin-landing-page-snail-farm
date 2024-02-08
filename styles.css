@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: rgb(2,26,38);
+    background-color: #021a26;
     color: #E5E7EB;
     font-size: 18px;    
 }
@@ -66,9 +66,13 @@ nav li {
     width: 30vw;
     height: 25vw;
 }
-
+         
 .subheader-signup button {
-    background-color: #3882F6;
+    background-image: linear-gradient(to right, #021a26 0%, #26a0da  50%, #021a26  100%);
+    background-position: right center; /* change the direction of the change here */
+    transition: 0.5s;
+    box-shadow: 0 0 5px #3882F6;
+    background-size: 200% auto;
     color: white;
     border: none;
     border-radius: 6px;
@@ -76,6 +80,11 @@ nav li {
     width: 100px;
     margin-top: 10px;
     font-weight: bolder;
+}
+
+.subheader-signup button:hover {
+    background-position: left center; /* change the direction of the change here */
+    cursor: pointer;
 }
 
 .midsection {
