@@ -42,7 +42,7 @@ nav li {
 
 nav li:hover {
     color: rgb(18,229,176); 
-    border: 1px solid rgb(18,229,176); 
+    border: 1px solid #12e5b0; 
     transition: all 0.2s;
 }
 .subheader {
@@ -106,6 +106,7 @@ nav li:hover {
 .midsection h2 {
     font-size: 36px;
     font-weight: 900;
+    margin-top: 3em;
     color: #1F2937;
     text-align: center;
 }
@@ -117,15 +118,33 @@ nav li:hover {
 }
 
 .midsection-img {
+    cursor: pointer;
     width: 300px;
-    height: 300px;
-    border: 5px solid #3882F6;
-    border-radius: 30px;
+    height: 300px;   
+    padding: 20px; 
+    border-radius: 50px;
 }
 
 .midsection-img-frame p {
-    text-align: center;
     font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.midsection-img-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #1F2937;
+    background-color: #1F2937;
+    color: white;
+    border-radius: 30px;
+}    
+
+.midsection-img-frame:hover {
+    background-color: #12e5b0;
+    color: #1F2937;
+    transition: 0.2s;
 }
 
 .midsection-quote {
